@@ -1,0 +1,11 @@
+{
+  "id": "87654321-4321-4321-4321-210987654321",
+  "name": "Open Brewery Environment",
+  "values": [
+    {
+      "key": "baseUrl",
+      "value": "https://api.openbrewerydb.org/v1",
+      "enabled": true
+    }
+  ]
+}

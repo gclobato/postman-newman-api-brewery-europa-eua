@@ -1,0 +1,12 @@
+{
+  "name": "openbrewery-api-qa",
+  "version": "1.0.0",
+  "description": "API test automation with Postman and Newman",
+  "scripts": {
+    "test": "newman run collections/openbrewery_collection.json -e environments/openbrewery_environment.json"
+  },
+  "devDependencies": {
+    "newman": "^6.2.1",
+    "newman-reporter-htmlextra": "^1.23.1"
+  }
+}
